@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 //import 'dart:ui';
 //import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
+import 'package:myapp/page-1/setgoal-2.dart';
+import 'package:myapp/page-1/setgoal-7.dart';
 class setgoal extends StatefulWidget {
   const setgoal({Key? key}) : super(key: key);
   @override
@@ -10,6 +12,7 @@ class setgoal extends StatefulWidget {
 }
 
 class _setgoalState extends State<setgoal> {
+  final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     double baseWidth = 360;
@@ -121,6 +124,24 @@ class _setgoalState extends State<setgoal> {
                     child: Container(
                       width: 20*fem,
                       height: 20*fem,
+                      child: TextButton(
+                      onPressed: () {
+                        if (_formKey.currentState!.validate()) {
+                          print("success");
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => setgoal2(),
+                            ),
+                          );
+                        }
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(24 * fem),
+                        ),
+                      ),
                       child: Image.asset(
                         'assets/page-1/images/calendar-Eje.png',
                         width: 20*fem,
@@ -128,7 +149,7 @@ class _setgoalState extends State<setgoal> {
                       ),
                     ),
                   ),
-                ],
+              ),],
               ),
             ),
             Container(
@@ -193,13 +214,31 @@ class _setgoalState extends State<setgoal> {
                                 child: SizedBox(
                                   width: 1*fem,
                                   height: 16*fem,
+                                  child: TextButton(
+                      onPressed: () {
+                        if (_formKey.currentState!.validate()) {
+                          print("success");
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => setgoal7(),
+                            ),
+                          );
+                        }
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(24 * fem),
+                        ),
+                      ),
                                   child: Image.asset(
                                     'assets/page-1/images/cursor--DZE.png',
                                     fit: BoxFit.cover,
                                   ),
                                 ),
                               ),
-                            ),
+                            ),),
                             Positioned(
                               // textwQQ (I257:1133;113:2079)
                               left: 0*fem,

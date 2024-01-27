@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 //import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 import 'package:myapp/page-1/setgoal.dart';
-//import 'package:myapp/page-1/login.dart';
-import 'package:myapp/page-1/homepage-1.dart';
+import 'package:myapp/page-1/login.dart';
+//import 'package:myapp/page-1/homepage-1.dart';
 
 class profile extends StatefulWidget {
   const profile({Key? key}) : super(key: key);
@@ -127,24 +127,23 @@ class _profileState extends State<profile> {
                           // setgoaluBr (252:662)
                           margin: EdgeInsets.fromLTRB(0*fem, 3*fem, 0*fem, 0*fem),
                           child: TextButton(
-                        onPressed: () {
-                          // print("button pressed");
-                          if (_formKey.currentState!.validate()) {
-                            print("success");
-                          }
-                          Navigator.of(context).push(
-                           
+                      onPressed: () {
+                        if (_formKey.currentState!.validate()) {
+                          print("success");
+                          Navigator.push(
+                            context,
                             MaterialPageRoute(
                               builder: (context) => setgoal(),
                             ),
                           );
-                        },
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.zero,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(24 * fem),
-                          ),
+                        }
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(24 * fem),
                         ),
+                      ),
                           child: Text(
                             'Set Goal',
                             textAlign: TextAlign.center,
@@ -266,24 +265,23 @@ class _profileState extends State<profile> {
                         // settingsxLU (102:115)
                         margin: EdgeInsets.fromLTRB(0*fem, 2.36*fem, 0*fem, 0*fem),
                         child: TextButton(
-                        onPressed: () {
-                          // print("button pressed");
-                          if (_formKey.currentState!.validate()) {
-                            print("success");
-                          }
+                      onPressed: () {
+                        if (_formKey.currentState!.validate()) {
+                          print("success");
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => profile(),
+                              builder: (context) => login(),
                             ),
                           );
-                        },
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.zero,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(24 * fem),
-                          ),
+                        }
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(24 * fem),
                         ),
+                      ),
                         child: Text(
                           'Settings',
                           textAlign: TextAlign.center,
@@ -336,24 +334,23 @@ class _profileState extends State<profile> {
                           // setgoaluBr (252:662)
                           margin: EdgeInsets.fromLTRB(0*fem, 3*fem, 0*fem, 0*fem),
                           child: TextButton(
-                        onPressed: () {
-                          // print("button pressed");
-                          if (_formKey.currentState!.validate()) {
-                            print("success");
-                          }
-                          Navigator.of(context).push(
-                           
+                      onPressed: () {
+                        if (_formKey.currentState!.validate()) {
+                          print("success");
+                          Navigator.push(
+                            context,
                             MaterialPageRoute(
-                              builder: (context) => homepage(),
+                              builder: (context) => login(),
                             ),
                           );
-                        },
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.zero,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(24 * fem),
-                          ),
+                        }
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(24 * fem),
                         ),
+                      ),
                       child: Text(
                         // logoutgZJ (100:115)
                         'Logout',

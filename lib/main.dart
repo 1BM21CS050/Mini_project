@@ -21,7 +21,7 @@ import 'package:myapp/page-1/settingsclick.dart';
 import 'package:myapp/page-1/setgoal.dart';
 import 'package:myapp/page-1/setgoal-1.dart';
 // import 'package:myapp/page-1/setgoal-3.dart';
-// import 'package:myapp/page-1/setgoal-7.dart';
+import 'package:myapp/page-1/setgoal-7.dart';
 // import 'package:myapp/page-1/setgoal-8.dart';
 // import 'package:myapp/page-1/setgoal-4.dart';
 // import 'package:myapp/page-1/setgoal-5.dart';
@@ -79,6 +79,7 @@ class MyApp extends StatelessWidget {
       setgoal(),
       setgoal1(),
       setgoal2(),
+      setgoal7(),
       settingsclick(),
     ],
   ),

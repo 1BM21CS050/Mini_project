@@ -149,6 +149,26 @@ class Scene extends StatelessWidget {
                         color: Color(0xff36344a),
                         borderRadius: BorderRadius.circular(11*fem),
                       ),
+                      ),
+                      Positioned(
+                                left: 22 * fem,
+                                top: 0 * fem,
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => signup(),
+                                      ),
+                                    );
+                                  },
+                                  style: TextButton.styleFrom(
+                                    padding: EdgeInsets.zero,
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(24 * fem),
+                                    ),
+                                  ),
+
                       child: Center(
                         child: Text(
                           'SIGN UP',
@@ -163,7 +183,7 @@ class Scene extends StatelessWidget {
                         ),
                       ),
                     ),
-                  ],
+                ),],
                 ),
               ),
             ],
