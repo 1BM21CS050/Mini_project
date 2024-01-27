@@ -1,0 +1,359 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+
+  email_validator: ^2.1.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/auto-group-hs6p.png
+    - assets/page-1/images/auto-group-ewng.png
+    - assets/page-1/images/icons.png
+    - assets/page-1/images/arrow-small-left-1.png
+    - assets/page-1/images/ellipse-11.png
+    - assets/page-1/images/auto-group-gode.png
+    - assets/page-1/images/auto-group-hdt2.png
+    - assets/page-1/images/ellipse-11-yg8.png
+    - assets/page-1/images/ellipse-8.png
+    - assets/page-1/images/auto-group-zqvn.png
+    - assets/page-1/images/auto-group-zjgc.png
+    - assets/page-1/images/copy-svgrepo-com-1.png
+    - assets/page-1/images/auto-group-6idr.png
+    - assets/page-1/images/auto-group-spyl.png
+    - assets/page-1/images/auto-group-etig.png
+    - assets/page-1/images/auto-group-eg2x.png
+    - assets/page-1/images/auto-group-sp5s.png
+    - assets/page-1/images/fotter.png
+    - assets/page-1/images/dismiss-button.png
+    - assets/page-1/images/triangle-down-svgrepo-com-1.png
+    - assets/page-1/images/animation-1700239180992-1.png
+    - assets/page-1/images/triangle-down-svgrepo-com-1-TXA.png
+    - assets/page-1/images/auto-group-ge7e.png
+    - assets/page-1/images/triangle-down-svgrepo-com-1-JMz.png
+    - assets/page-1/images/auto-group-fsyg.png
+    - assets/page-1/images/ellipse-12.png
+    - assets/page-1/images/dismiss-button-dxp.png
+    - assets/page-1/images/animation-1700239180992-1-y6c.png
+    - assets/page-1/images/back-svgrepo-com-1-wJC.png
+    - assets/page-1/images/ellipse-8-rck.png
+    - assets/page-1/images/ellipse-10.png
+    - assets/page-1/images/arrow-small-left-1-KKS.png
+    - assets/page-1/images/dismiss-button-QKE.png
+    - assets/page-1/images/ellipse-9.png
+    - assets/page-1/images/dismiss-button-oUp.png
+    - assets/page-1/images/icons-jrU.png
+    - assets/page-1/images/dismiss-button-B6C.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/ellipse-12-DpY.png
+    - assets/page-1/images/ellipse-10-iWY.png
+    - assets/page-1/images/fotter-rCU.png
+    - assets/page-1/images/back-svgrepo-com-1.png
+    - assets/page-1/images/copy-svgrepo-com-1-aBv.png
+    - assets/page-1/images/ellipse-12-Hxp.png
+    - assets/page-1/images/ellipse-9-RJL.png
+    - assets/page-1/images/auto-group-zeya.png
+    - assets/page-1/images/ellipse-8-D56.png
+    - assets/page-1/images/copy-svgrepo-com-2.png
+    - assets/page-1/images/ellipse-9-w8p.png
+    - assets/page-1/images/settings-svgrepo-com-1.png
+    - assets/page-1/images/back-svgrepo-com-1-N1A.png
+    - assets/page-1/images/ellipse-10-FsJ.png
+    - assets/page-1/images/group-8ov.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/current-day.png
+    - assets/page-1/images/fotter-aNQ.png
+    - assets/page-1/images/fotter-Dx8.png
+    - assets/page-1/images/fotter-9ZE.png
+    - assets/page-1/images/auto-group-rema.png
+    - assets/page-1/images/calendar.png
+    - assets/page-1/images/ellipse-11-NcL.png
+    - assets/page-1/images/x.png
+    - assets/page-1/images/calendar-uFa.png
+    - assets/page-1/images/calendar-vMS.png
+    - assets/page-1/images/bg-1.png
+    - assets/page-1/images/settings-svgrepo-com-1-F8x.png
+    - assets/page-1/images/calendar-Z7a.png
+    - assets/page-1/images/vector-tjE.png
+    - assets/page-1/images/calendar-DBA.png
+    - assets/page-1/images/calendar-gEQ.png
+    - assets/page-1/images/x-tDz.png
+    - assets/page-1/images/dismiss-button-5zc.png
+    - assets/page-1/images/x-mpp.png
+    - assets/page-1/images/x-e1S.png
+    - assets/page-1/images/arrows.png
+    - assets/page-1/images/arrows-voW.png
+    - assets/page-1/images/fotter-tma.png
+    - assets/page-1/images/bg-1-Js6.png
+    - assets/page-1/images/x-eZS.png
+    - assets/page-1/images/calendar-Xt8.png
+    - assets/page-1/images/calendar-dzc.png
+    - assets/page-1/images/arrows-NxC.png
+    - assets/page-1/images/cursor-.png
+    - assets/page-1/images/rectangle-45.png
+    - assets/page-1/images/calendar-9oA.png
+    - assets/page-1/images/calendar-7V6.png
+    - assets/page-1/images/fotter-cXe.png
+    - assets/page-1/images/bg-1-1Sc.png
+    - assets/page-1/images/dismiss-button-Jx4.png
+    - assets/page-1/images/calendar-rya.png
+    - assets/page-1/images/cursor--DZE.png
+    - assets/page-1/images/cursor--xtk.png
+    - assets/page-1/images/fotter-id2.png
+    - assets/page-1/images/group-A8k.png
+    - assets/page-1/images/rectangle-45-gMz.png
+    - assets/page-1/images/calendar-3TS.png
+    - assets/page-1/images/current-day-CbE.png
+    - assets/page-1/images/logout-svgrepo-com-1.png
+    - assets/page-1/images/account-avatar-head-svgrepo-com-1.png
+    - assets/page-1/images/cursor--nHA.png
+    - assets/page-1/images/logout-svgrepo-com-1-tg4.png
+    - assets/page-1/images/x-1tQ.png
+    - assets/page-1/images/calendar-7yN.png
+    - assets/page-1/images/calendar-M8x.png
+    - assets/page-1/images/current-day-wCG.png
+    - assets/page-1/images/cursor--qaU.png
+    - assets/page-1/images/account-avatar-head-svgrepo-com-1-GpC.png
+    - assets/page-1/images/calendar-Lp4.png
+    - assets/page-1/images/auto-group-61vc.png
+    - assets/page-1/images/fotter-pHJ.png
+    - assets/page-1/images/rectangle-44.png
+    - assets/page-1/images/cursor--3ZN.png
+    - assets/page-1/images/auto-group-zj7s.png
+    - assets/page-1/images/calendar-Eje.png
+    - assets/page-1/images/cursor--6NG.png
+    - assets/page-1/images/current-day-nMA.png
+    - assets/page-1/images/group-NWx.png
+    - assets/page-1/images/cursor--5a4.png
+    - assets/page-1/images/dismiss-button-XsJ.png
+    - assets/page-1/images/fotter-B4x.png
+    - assets/page-1/images/fotter-6wv.png
+    - assets/page-1/images/rectangle-45-iM2.png
+    - assets/page-1/images/arrows-sVN.png
+    - assets/page-1/images/fotter-gex.png
+    - assets/page-1/images/cursor--FuE.png
+    - assets/page-1/images/cursor--E4L.png
+    - assets/page-1/images/ellipse-56.png
+    - assets/page-1/images/rectangle-64.png
+    - assets/page-1/images/layer-2.png
+    - assets/page-1/images/ellipse-57.png
+    - assets/page-1/images/ellipse-53.png
+    - assets/page-1/images/cursor--qoJ.png
+    - assets/page-1/images/cursor--JTv.png
+    - assets/page-1/images/fotter-f3a.png
+    - assets/page-1/images/bg-1-uGg.png
+    - assets/page-1/images/dismiss-button-tnp.png
+    - assets/page-1/images/cursor--Bmv.png
+    - assets/page-1/images/rectangle-64-hWc.png
+    - assets/page-1/images/cursor--FY8.png
+    - assets/page-1/images/x-wpG.png
+    - assets/page-1/images/vector-pU4.png
+    - assets/page-1/images/rectangle-45-JAG.png
+    - assets/page-1/images/calendar-rLc.png
+    - assets/page-1/images/cursor--Dn4.png
+    - assets/page-1/images/cursor--YsE.png
+    - assets/page-1/images/cursor--z1A.png
+    - assets/page-1/images/cursor--JXe.png
+    - assets/page-1/images/account.png
+    - assets/page-1/images/settings.png
+    - assets/page-1/images/dismiss-button-ifE.png
+    - assets/page-1/images/dismiss-button-gJY.png
+    - assets/page-1/images/rectangle-64-dDn.png
+    - assets/page-1/images/fotter-hXi.png
+    - assets/page-1/images/fotter-8Fe.png
+    - assets/page-1/images/rectangle-64-B2t.png
+    - assets/page-1/images/rectangle-64-Goe.png
+    - assets/page-1/images/rectangle-44-Qng.png
+    - assets/page-1/images/vector-UNG.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/ellipse-51.png
+    - assets/page-1/images/x-xpL.png
+    - assets/page-1/images/ellipse-52.png
+    - assets/page-1/images/calendar-7oJ.png
+    - assets/page-1/images/dismiss-button-y3z.png
+    - assets/page-1/images/dismiss-button-pVA.png
+    - assets/page-1/images/rectangle-64-d4Y.png
+    - assets/page-1/images/ellipse-48.png
+    - assets/page-1/images/fotter-Yx4.png
+    - assets/page-1/images/vector-MxY.png
+    - assets/page-1/images/rectangle-63.png
+    - assets/page-1/images/ellipse-58.png
+    - assets/page-1/images/ellipse-43.png
+    - assets/page-1/images/ellipse-55.png
+    - assets/page-1/images/ellipse-5-oNt.png
+    - assets/page-1/images/ellipse-57-1x8.png
+    - assets/page-1/images/rectangle-63-sjS.png
+    - assets/page-1/images/ellipse-5-caY.png
+    - assets/page-1/images/ellipse-45.png
+    - assets/page-1/images/fotter-3kp.png
+    - assets/page-1/images/rectangle-64-hKa.png
+    - assets/page-1/images/ellipse-57-ekc.png
+    - assets/page-1/images/ellipse-54.png
+    - assets/page-1/images/ellipse-55-brC.png
+    - assets/page-1/images/vector-gMr.png
+    - assets/page-1/images/fotter-Sbv.png
+    - assets/page-1/images/rectangle-63-Q2x.png
+    - assets/page-1/images/vector-m8Q.png
+    - assets/page-1/images/ellipse-53-o56.png
+    - assets/page-1/images/ellipse-52-ZKA.png
+    - assets/page-1/images/fotter-4Pe.png
+    - assets/page-1/images/ellipse-55-WgC.png
+    - assets/page-1/images/layer-2-zmi.png
+    - assets/page-1/images/ellipse-53-HmN.png
+    - assets/page-1/images/vector-eQC.png
+    - assets/page-1/images/vector-4Ng.png
+    - assets/page-1/images/ellipse-56-uu6.png
+    - assets/page-1/images/ellipse-54-T7J.png
+    - assets/page-1/images/vector-aU4.png
+    - assets/page-1/images/ellipse-56-Boa.png
+    - assets/page-1/images/ellipse-49.png
+    - assets/page-1/images/layer-2-Udz.png
+    - assets/page-1/images/rectangle-64-YaQ.png
+    - assets/page-1/images/ellipse-51-qgY.png
+    - assets/page-1/images/vector-AGt.png
+    - assets/page-1/images/ellipse-48-16U.png
+    - assets/page-1/images/ellipse-50.png
+    - assets/page-1/images/rectangle-63-JZA.png
+    - assets/page-1/images/vector-QNp.png
+    - assets/page-1/images/vector-QYU.png
+    - assets/page-1/images/ellipse-49-dxG.png
+    - assets/page-1/images/ellipse-40.png
+    - assets/page-1/images/vector-2ua.png
+    - assets/page-1/images/auto-group-5qun.png
+    - assets/page-1/images/vector-7zc.png
+    - assets/page-1/images/ellipse-42.png
+    - assets/page-1/images/vector-4wW.png
+    - assets/page-1/images/ellipse-5-Vdv.png
+    - assets/page-1/images/ellipse-43-9Lx.png
+    - assets/page-1/images/ellipse-44.png
+    - assets/page-1/images/ellipse-41.png
+    - assets/page-1/images/rectangle-64-hE4.png
+    - assets/page-1/images/auto-group-st3w.png
+    - assets/page-1/images/ellipse-39.png
+    - assets/page-1/images/auto-group-er4c.png
+    - assets/page-1/images/vector-Cq2.png
+    - assets/page-1/images/ellipse-35.png
+    - assets/page-1/images/rectangle-64-26Q.png
+    - assets/page-1/images/ellipse-46.png
+    - assets/page-1/images/ellipse-51-QW8.png
+    - assets/page-1/images/rectangle-64-9Ti.png
+    - assets/page-1/images/ellipse-37.png
+    - assets/page-1/images/vector-N4t.png
+    - assets/page-1/images/auto-group-i4ct.png
+    - assets/page-1/images/rectangle-64-CZi.png
+    - assets/page-1/images/ellipse-5-MBi.png
+    - assets/page-1/images/vector-Jck.png
+    - assets/page-1/images/rectangle-64-TEk.png
+    - assets/page-1/images/ellipse-54-Y1J.png
+    - assets/page-1/images/vector-6oW.png
+    - assets/page-1/images/ellipse-47.png
+    - assets/page-1/images/vector-3Tr.png
+    - assets/page-1/images/ellipse-44-1Qg.png
+    - assets/page-1/images/ellipse-52-Zwz.png
+    - assets/page-1/images/ellipse-45-R5n.png
+    - assets/page-1/images/vector-w3S.png
+    - assets/page-1/images/ellipse-36.png
+    - assets/page-1/images/fotter-GrQ.png
+    - assets/page-1/images/rectangle-63-eCk.png
+    - assets/page-1/images/ellipse-58-CVA.png
+    - assets/page-1/images/auto-group-3uxw.png
+    - assets/page-1/images/ellipse-38.png
+    - assets/page-1/images/auto-group-8ry4.png
+    - assets/page-1/images/ellipse-58-s24.png
+    - assets/page-1/images/fotter-y7A.png
+    - assets/page-1/images/rectangle-64-B1N.png
+    - assets/page-1/images/ellipse-46-buW.png
+    - assets/page-1/images/layer-2-jUp.png
+    - assets/page-1/images/rectangle-64-x28.png
+    - assets/page-1/images/ellipse-47-gy2.png
+    - assets/page-1/images/ellipse-50-VfJ.png
+    - assets/page-1/images/fotter-8ep.png
+    - assets/page-1/images/vector-GoN.png
+    - assets/page-1/images/layer-2-DVW.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
